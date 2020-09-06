@@ -9,7 +9,7 @@ public class MementoTest {
 
     /**
      * The entry point of application.
-     *
+     * Single Responsibility Principle.
      * @param args the input arguments
      */
     public static void main(String[] args) {
