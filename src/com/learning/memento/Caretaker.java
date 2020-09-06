@@ -2,6 +2,7 @@ package com.learning.memento;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * The type Caretaker.
@@ -11,7 +12,7 @@ public class Caretaker {
     /**
      * The States.
      */
-    private List<Memento> states = new ArrayList<>();
+    private List<Memento> states;
 
     /**
      * Push.
@@ -19,6 +20,9 @@ public class Caretaker {
      * @param memento the memento
      */
     public void push(Memento memento) {
+        if (Objects.isNull(states)) {
+            states = new ArrayList<>();
+        }
         states.add(memento);
     }
 
