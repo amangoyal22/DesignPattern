@@ -1,4 +1,4 @@
-package com.learning.memento;
+package com.pattern.behavior.memento;
 
 /**
  * The type Editor.

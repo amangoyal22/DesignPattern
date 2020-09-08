@@ -1,4 +1,4 @@
-package com.learning.state;
+package com.pattern.behavior.state;
 
 /**
  * The type State test.

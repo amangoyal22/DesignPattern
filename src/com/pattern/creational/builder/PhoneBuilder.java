@@ -1,4 +1,4 @@
-package com.learning.builder;
+package com.pattern.creational.builder;
 
 /**
  * The type Phone builder.
